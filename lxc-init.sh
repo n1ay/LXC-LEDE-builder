@@ -25,7 +25,6 @@ else
             lxc file push packages.txt $lxc_name/root/
             lxc file push .config $lxc_name/root/
             lxc file push lxc-install.sh $lxc_name/root/
-            lxc file push lxc-build.sh $lxc_name/root/
             echo "Success"
         ;;
         n|N)
