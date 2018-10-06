@@ -32,7 +32,5 @@ make menuconfig
 Feel free to make any changes to the configuration file (.config).
 Then build it.
 ```
-make V=s -j4
+./lxc-build.sh
 ```
-`-j4` is 4 make jobs simultanously. If you're getting errors run with `-j1`
-
