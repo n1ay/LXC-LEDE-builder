@@ -34,6 +34,6 @@ make menuconfig
 
 You don't have to run all these commands every time you build. After installation guide just run:
 ```
-./lxc-build.sh
+make
 ```
 
